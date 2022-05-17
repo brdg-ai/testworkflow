@@ -27,7 +27,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: curl "https://www.angio.net/tailscale_1.18.0_amd64.tgz" -o tailscale.tgz 
+        run: curl "https://pkgs.tailscale.com/stable/tailscale_1.18.0_amd64.tgz" -o tailscale.tgz
+
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
